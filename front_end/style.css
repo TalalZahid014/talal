@@ -1,6 +1,15 @@
- .Name{
-     color: blue
+ .Name {
+     color: darkslategray;
  }
- .Education{
-    color:aquamarine
+ .Education {
+    color:rgb(254, 201, 122)
  }
+.ed {
+    color: crimson;
+}
+.Hobbies {
+    color: darkcyan;
+}
+.h {
+    color: indianred;
+}
