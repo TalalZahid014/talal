@@ -4,3 +4,5 @@ day 2
 ![Alt text](./2.png)
 assignment 1
 ![Alt text](./3.png)
+assignmaent 1 updated
+![Alt text](./4.png)
