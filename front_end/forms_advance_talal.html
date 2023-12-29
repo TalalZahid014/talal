@@ -11,26 +11,139 @@
         button:hover{
             background-color: aliceblue;
         }
+       
     </style>
 </head>
 <body>
     <form>
-        <label for="first">First Name:</label>
-        <input type="text" id="first" name="namefirst" required><br><br>
-        <label for="pass" >Password:</label>
-        <input type="password" name="password2" id="pass" required><br><br>
+    <table>
+       <tr>
+        <td> 
+            <label for="first">First Name:</label>
+            <input type="text" id="first" name="namefirst" required>
+        </td>
+        <td>
+            <label for="last">Last Name:</label>
+            <input type="text" id="last" name="namelast" required>
+        </td>
+        <td>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="mail" required>
+        </td>
+        <td>
+            <label for="phone_no">Phone Number:</label>
+            <input type="number" id="phone_no" name="phone-no" required>
+        </td>
+
         
-        <label for="drop">Gender</label>
-        <select id="drop">
-            <option value="m">Male</option>
-            <option value="f">Female</option>
-        </select>
-        <br><br>
+        
+        
+        
+        
+        
+            <td>
+                <label for="addline1">Address Line 1:</label>
+                <input type="text" id="addline1" name="add-line1" required> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="addline2">Address Line 2</label>
+                <input type="text" id="addline2" name="add-line2">
+            </td>
+            <td>
+                <label for="city">City:</label>
+                <input type="text" id="city" name=".city">
+            </td>
+        
+        
+            <td>
+                <label for="state">State:</label>
+                <input type="text" id="state" name=".state">
+            </td>
+        
+        
+            <td>
+                <label for="zipcode">Zipcode:</label>
+                <input type="number" id="zipcode" name="zip" required>
+            </td>
+        
+        
+            <td>
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name=".country" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="date-of-birth">Date Of Birth(dd/mm/yyyy):</label>
+                <input type="number" id="date-of-birth" name="DoB">
+            </td>
+            
+        
+        
+            <td>
+                <label for="drop">Gender:</label>
+                <select id="drop" required>
+                    <option value="m">Male</option>
+                    <option value="f">Female</option>
+                </select>
+            </td>
+        
+        
+            <td>
+                <label for="SSN">Social Security Number:</label>
+                <input type="number" id="SSN" name="S-S-N" required>
+            </td>
+            <td>
+                <label for="NID">National ID:</label>
+                <input type="text" id="NID" name="nid" required>
+            </td>
+            
+
+        
+        
+            <td>
+                <label for="PassNo">Passport Number:</label>
+                <input type="text" id="PassNo" name="passno" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Username">Username:</label>
+                <input type="text" id="Username" name="username" required>
+            </td>
+            <td>
+                <label for="pass" >Password:</label>
+                <input type="password" name="pass_word" id="pass" required>
+            </td>
+            <td>
+                <label for="password-confirm">Confirm Password:</label>
+                <input type="text" id="password-confirm" name="pass-confirm" required>
+            </td>
+            <td>
+                <label for="Occupation">Occupation</label>
+                <input type="text" id="Occupation" name="occupation" required>
+            </td>
+            <td>
+                <label for="company-name">Company Name:</label>
+                <input type="text" id="company-name" name="comp-name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Industry">Industry:</label>
+                <input type="text" id="Industry" name="industry">
+            </td>
+        </tr>
+        
+        
         <label><input type="radio" value="pak">Pakistan</label>
         <label><input type="radio" value="india">India</label>
         <br><br>
         <button type="submit">Submit</button>
-        
+         
+    </table>
 
     </form>
 </body>
